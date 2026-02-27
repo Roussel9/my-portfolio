@@ -89,7 +89,13 @@
         <div class="col-lg-8">
             <div class="contact-form-card">
                 <h3 class="section-title">Nachricht senden</h3>
-                <form id="contact-form" action="send_email.php" method="POST" class="contact-form">
+              <form id="contact-form" class="contact-form"
+                    action="https://api.web3forms.com/submit"
+                    method="POST">
+
+                    <!-- Web3Forms KEY -->
+                    <input type="hidden" name="access_key" value="e7d7ad41-e85d-4b24-9042-4bb23fb30bff">
+
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label for="name" class="form-label">Name *</label>
@@ -100,26 +106,37 @@
                             <input type="email" id="email" name="email" class="form-control" required>
                         </div>
                     </div>
+
                     <div class="mb-3">
                         <label for="subject" class="form-label">Betreff *</label>
                         <input type="text" id="subject" name="subject" class="form-control" required>
                     </div>
+
                     <div class="mb-4">
                         <label for="message" class="form-label">Nachricht *</label>
                         <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
                     </div>
+
                     <button type="submit" class="btn btn-contact" id="submit-btn">
                         <span id="btn-text">Nachricht senden</span>
                         <div id="btn-loading" class="spinner-border spinner-border-sm d-none" role="status">
                             <span class="visually-hidden">Lädt...</span>
                         </div>
                     </button>
+
                 </form>
+
                 <div id="form-alert" class="alert mt-3 d-none"></div>
             </div>
         </div>
     </div>
+
 </main>
+
+
+<script src="assets/js/contact.js"></script>
+<!-- Dann dein eigenes Skript -->
+
 
 <footer class="custom-footer text-white text-center py-4 mt-5">
     <div class="container">
@@ -145,6 +162,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="assets/js/contact.js"></script>
+
 </body>
 </html>
