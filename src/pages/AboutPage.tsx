@@ -21,7 +21,7 @@ export default function AboutPage() {
           <div className="surface cardPad">
             <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
               <img
-                src={assetUrl('assets/images/me.jpg')}
+                src={assetUrl('assets/images/me.png')}
                 alt="Portrait"
                 style={{
                   width: 130,
