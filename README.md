@@ -1,39 +1,72 @@
-# Mein Portfolio
+# 🌐 Mein Portfolio
 
-Willkommen zu meinem persönlichen Portfolio! 🌟  
+Willkommen zu meinem modernen Entwickler-Portfolio 🚀  
 
-Dies ist meine Portfolio-Webseite, die meine Projekte, Fähigkeiten und Kontaktmöglichkeiten präsentiert. Sie ist als modernes, responsives Webdesign mit einem spielerischen Farbkonzept in Blau und Pink umgesetzt.  
+Dieses Projekt ist eine vollständig neu entwickelte **Single-Page Application (SPA)** mit **React + Vite**, die meine Projekte, Fähigkeiten, Ausbildung und Kontaktmöglichkeiten professionell präsentiert.
 
-## Funktionen
+Das Design ist modern, responsiv und auf eine klare Entwickler-Ästhetik ausgelegt (Blau/Weiß mit Dark Mode).
 
-- **Startseite:** Vorstellung mit Hero-Sektion und Call-to-Action.
-- **Über mich:** Informationen zu meiner Ausbildung, Interessen und Skills.
-- **Projekte:** Übersicht meiner wichtigsten Projekte mit Links zu GitHub-Repositories.
-- **Kontakt:** Kontaktformular für Anfragen, plus Social-Media-Links und Standort.
-- **Responsives Design:** Optimiert für Desktop, Tablet und Mobile.
-- **Farben:** Dynamische Farbverläufe in Blau und Pink, spielerische Akzente.
+---
 
-## Technologien
+## ✨ Features
 
-- HTML5 & CSS3  
-- Bootstrap 5  
-- JavaScript  
-- PHP (für Kontaktformular)  
+### 🧭 Moderne SPA-Architektur
+- Entwickelt mit **React (Vite)**
+- Schnelle Navigation ohne Reload (React Router)
+- Optimiert für GitHub Pages Deployment
+
+### 🌍 Mehrsprachigkeit
+- 🇩🇪 Deutsch
+- 🇬🇧 Englisch
+- 🇫🇷 Französisch  
+→ Dynamischer Sprachwechsel (i18n)
+
+### 🌙 Dark Mode
+- Heller & dunkler Modus
+- Speicherung in `localStorage`
+- Automatische Anpassung an Benutzerpräferenz
+
+### 📂 Dynamische Projekte
+- Projekte werden automatisch aus meinem **GitHub-Profil** geladen
+- Keine manuelle Pflege der Projektliste notwendig
+- Live-Daten aus GitHub API
+
+### 🎨 Modernes UI/UX Design
+- Blau/Weiß Designsystem
+- Karten-Layout für Projekte
+- Smooth Animations & Hover-Effekte
+- Mobile-first responsive Design
+
+### 📄 Lebenslauf
+- Direkt downloadbarer CV (`PDF`)
+- Integriert in das Asset-System
+
+### 📬 Kontaktformular
+- Integration mit **Web3Forms**
+- Einfaches und schnelles Kontaktieren ohne Backend
+
+---
+
+## 🛠️ Technologien
+
+- React (Vite)
+- TypeScript
+- React Router
+- i18n (Internationalisierung)
+- GitHub API
+- CSS / Modern UI Design
+- Web3Forms
 - GitHub Pages Hosting
 
-## Projekte
+---
 
-1. **Feuer – Wasser – Pflanze:** Browser-Spiel inspiriert von Pokémon. [Code ansehen](https://github.com/Roussel9/feuer-wasser-pflanze)  
-2. **Schiffe Versenken:** Java-Konsolenspiel mit KI-Logik. [Code ansehen](https://github.com/Roussel9/SchiffeVersenken-mit-KI)  
-3. **Rezept-Web-Anwendung:** Web-App zum Verwalten von Rezepten mit Datenbank. [Code ansehen](https://github.com/Roussel9/InformatikProjekt_recipe_website)  
 
-## Live-Demo
+---
 
-Die Seite ist online verfügbar unter:  
-[https://Roussel9.github.io/my-portfolio/](https://Roussel9.github.io/my-portfolio/)
+## 🚀 Deployment
 
-## Nutzung
-
-1. Repository klonen:
+### Lokal starten
 ```bash
-git clone https://github.com/Roussel9/my-portfolio.git
+npm install
+npm run dev
+
